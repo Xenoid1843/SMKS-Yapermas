@@ -1,0 +1,25 @@
+/* CSS 1 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+    background-color: black;
+}
+
+/* Ubah span menjadi .custom-span */
+.custom-span {
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-shadow: 0 0 10px #3C6E71;
+    transition: 5s;
+    cursor: pointer;
+}
+
+.custom-span:hover {
+    transition: 0.2s ease;
+    color: #8aeff8;
+    text-shadow: 0 0 20px #8aeff8;
+}
