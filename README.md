@@ -1,0 +1,2 @@
+# SMKS-Yapermas
+Web sekolah
