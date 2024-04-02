@@ -79,7 +79,7 @@ a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  height: 1750px;
+  height: 1650px;
 }
 
 .about-area,
@@ -100,7 +100,7 @@ a:hover {
 }
 .about-area {
   background-color: #fefefe;
-  min-height: 1000px; 
+  min-height: 880px; 
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -253,4 +253,40 @@ ul.fasilitas li::before {
     padding: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-family: Arial, sans-serif;
+  }
 
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav {
+    margin-right: 0;
+  }
+
+  .logo {
+    margin-left: 5%;
+    font-size: 24px;
+  }
+
+  .text-part, .service-area, .about-area, .port-area, .contact-area {
+    width: 90%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+}

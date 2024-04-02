@@ -12,7 +12,7 @@
 <body>
     <div class="navbar">
       <a href="#home"><img src="../Assets/logoypm.png" alt="" style="width: 40px; margin-left: 60px;"></a>
-        <ul class="nav" style="margin-left: 200px; font-size: 13px;">
+        <ul class="nav" style="margin-left: 200px; font-size: 15px;">
           <li><a href="#home">Beranda</a></li>
           <li><a href="#about">Tentang Kami</a></li>
           <li><a href="#portfolio">Fasilitas & Kegiatan</a></li>
@@ -31,7 +31,7 @@
       <section class="about-area" id="about">
         <div class="text-part">
           <h1 style="margin-top: -50px;">Profil SMKS Yapermas Jakarta</h1>
-          <br><br><br>
+          <br><br>
           <p class="vmypm">
             VISI
           </p>
@@ -268,19 +268,5 @@
               <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js"></script>       
       </section>
 </body>
-<script>
-  let prevScrollPos = window.pageYOffset;
-
-  window.onscroll = function() {
-    let currentScrollPos = window.pageYOffset;
-
-    if (prevScrollPos > currentScrollPos) {
-      document.querySelector(".navbar").classList.remove("navbar-hidden");
-    } else {
-      document.querySelector(".navbar").classList.add("navbar-hidden");
-    }
-
-    prevScrollPos = currentScrollPos;
-  }
-</script>
+<script src="../JS/index1.js"></script>
 </html>
